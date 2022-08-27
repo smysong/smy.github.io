@@ -1,0 +1,92 @@
+.banner-box{
+	width:100%;
+	height:260px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.coop-banner{
+	width: 100%;
+	height: 260px;
+	background-image: url("../img/case.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.case-cont{
+    width: 1200px;
+    height: auto;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.case-title{
+    width: 1200px;
+    height: 260px;
+    background: url("../img/gcase_bg.jpg");
+    margin: 0 auto;
+}
+.case-title h1{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: center;
+    line-height: 160px;
+}
+.case-list{
+    margin-top: 30px;
+}
+.case-title p{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+.caseshow{
+    width: 280px;
+    height: 470px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.img {
+    margin: 0 auto;
+    height: 470px;
+    overflow: hidden;
+}
+.img img {
+    margin: 0 auto;
+    line-height: 470px;
+  	width: 280px;
+  	filter: grayscale(50%);
+  	transition: all 0.6s;
+}
+a:hover img{
+	background:rgba(0,0,0,0.5);
+	filter: none;
+	transform: scale(1.1);
+}
+.case-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 430px;
+    background: rgba(255,255,255,0);
+    color: #555555;
+    font-size: 20px;
+    padding: 7% 15px;
+}
+.case-text p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background: rgba(255,255,255,0.5);
+    color: #555555;
+    font-size: 20px;
+    padding: 7% 15px;
+    text-align:center;
+}
+a:hover p{
+    color:#FFFFFF;
+	background:rgba(43,127,222,0.5);
+}

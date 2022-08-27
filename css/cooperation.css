@@ -1,0 +1,42 @@
+.cooperation-banner-box{
+	width:100%;
+	height:260px;
+	position: relative;
+	margin-bottom: 80px;
+}
+.coop-banner{
+	width: 100%;
+	height: 260px;
+	background-image: url("../img/case.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.coop-cont{
+    width: 800px;
+    height: auto;
+    min-height: 380px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.coop-cont h1{
+    width: 50%;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+}
+.coop-cont p{
+    width: 50%;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+}
+.tel{
+    width: 600px;
+    height: 30px;
+    margin: 0 auto;
+    border-bottom: black 1px solid;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
